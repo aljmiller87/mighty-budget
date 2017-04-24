@@ -1,0 +1,14 @@
+//Sample DB
+
+expenses = [
+	{
+		category: 'entertainment',
+		cost: 100,
+		description: 'bar'
+	}
+]
+
+category = [{
+	name: 'entertainment',
+}]
+
