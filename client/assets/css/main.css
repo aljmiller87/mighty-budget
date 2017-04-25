@@ -1,3 +1,174 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 header {
-	color: red;
+	margin-top: -70px;
+	background-image: url('../images/finance.jpg');
+	height: 400px;
+	width: 100%;
+	color: white;
+	padding-top: 30px;
+}
+
+.move-left {
+	margin-right: 5px !important;
+}
+
+.move-left li a {
+	color: #9d9d9d !important;
+}
+
+header h1, h3 {
+	text-shadow: 1px 1px #9D9D9D;
+	text-align: center;
+}
+
+header h1 {
+	margin-top: 70px;
+}
+
+.log-in-buttons {
+	margin-top: 50px;
+	max-width: 300px;
+	text-align: center;
+}
+
+.log-in-buttons button {
+	font-size: 125% !important;
+	padding: 10px 30px 10px 30px;
+}
+
+.log-in-buttons p {
+	margin-top: 10px;
+}
+
+.exit-demo {
+	margin-top: 25px;
+}
+
+.about {
+	height: 1000px;
+	text-align: center;
+}
+
+/*.about-row {
+	margin-top: 50px;
+}*/
+
+.card {
+	padding: 20px;
+	height: 400px;
+}
+
+.description-container {
+	width: 100%;
+	height: 300px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.description {
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*.red {
+	outline: 1px solid red;
+}
+
+.green {
+	outline: 1px solid green;
+}
+
+.blue {
+	outline: 1px solid blue;
+}
+*/
+.sample-status {
+	background-color: #3F7283;
+}
+.sample-status h2 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.hidden {
+	display: none;
+}
+@media only screen and (min-width: 768px) {
+	.about-grid {
+		width: 100% !important;
+	}
+
+	.card {
+		padding-left: 5px !important;
+		padding-right: 5px	!important;
+	}
+
+	.about {
+		height: 400px;
+	}
+
+	.description-container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	/*.description p {
+		width: 241px;
+	}*/
+
+	.sample-status {
+		height: 400px;
+		
+	}
+
+	.status-bar-container {
+		width: 80%;
+		max-width: 930px;
+		margin: 0 auto;
+	}
+
+	.mighty-budget {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	footer {
+		height: 380px;
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+
+	.gray-background {
+		background-color: #AFB8C1;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.about-grid {
+		width: 750px !important;
+	}
+
+	.sample-status h4 {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.about-grid {
+		width: 970px !important;
+	}
+
+	.card {
+		padding: 20px !important;
+		height:400px;
+	}
 }

@@ -115,7 +115,7 @@ export class CategoryGoals extends React.Component {
 		})
 
 	return (
-		<div>
+		<div className="mighty-budget">
 			<div className="page-header"><h3>Category Goals</h3></div>
 			<div >
 				<h4>Add New Goal:</h4>

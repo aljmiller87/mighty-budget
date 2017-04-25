@@ -40,7 +40,7 @@ export class ExpenseCategoryList extends React.Component {
 		});
 
 	return (
-		<div>
+		<div className="mighty-budget">
 			<div className="page-header"><h3>Expense Categories</h3></div>
 		
 			<div className="submitNewExpenseCategory">

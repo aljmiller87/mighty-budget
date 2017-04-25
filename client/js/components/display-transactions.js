@@ -104,7 +104,7 @@ export class DisplayTransactions extends React.Component {
 		}
 
 	return (
-		<div>
+		<div className="mighty-budget">
 			<div className="page-header"><h3>Display Transactions</h3></div>
 			<form onSubmit={this.onSubmit}>
 				<label>By Category</label>

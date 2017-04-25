@@ -64,7 +64,7 @@ export class ExpenseInput extends React.Component {
 		})
 
 		return (
-			<div>
+			<div className="mighty-budget">
 				<div className="page-header"><h3>Expense Input</h3></div>
 				<div>
 					<form onSubmit={this.onSubmit}>
